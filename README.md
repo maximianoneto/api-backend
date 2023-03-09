@@ -68,11 +68,12 @@ Response:
   },
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwMmM0YjkxNGYyMTRiNGM0ZTRlNGYzYyIsImlhdCI6MTYxNTYwMTQ2NCwiZXhwIjoxNjE1Njg3ODc3fQ.IBbpZLQ2Cdz8PYRWEJP1V7bYfNYrY9XHkzJqlxG90Iw"
 }
-POST /auth/authenticate
+```
+# POST /auth/authenticate
 Endpoint responsável pela autenticação de um usuário na aplicação.
 
 Body:
-
+```
 {
   "email": "johndoe@example.com",
   "password": "password123"
